@@ -1,0 +1,35 @@
+body
+{
+
+}
+.primary-background
+{
+    background: #2196f3!important;
+}
+.banner-background
+{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 90%, 70% 100%, 28% 90%, 0 100%, 0 0);
+}
+.image{
+    width :100%;
+    height : 550z0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image img {
+    height :300px;
+    width :300px;
+    border-radius: 50%;
+    border :10px solid #fff;
+
+}
+.back-img
+{
+    background: url("img_main/books.jpg");
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
