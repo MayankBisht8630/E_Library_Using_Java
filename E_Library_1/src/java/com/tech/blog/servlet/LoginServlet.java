@@ -38,11 +38,19 @@ public class LoginServlet extends HttpServlet {
             }
             else
             {
+                if("admin@gmail.com".equals(userEmail) && "admin".equals(userPassword))
+                {
+                    response.sendRedirect("admin.jsp");
+                    HttpSession s =request.getSession();
+                    s.setAttribute("currentuser", u);
+                }
+                else
+                {
                 //login Success
                 HttpSession s =request.getSession();
                 s.setAttribute("currentuser", u);
                 response.sendRedirect("profile.jsp");
-                
+                }
             }
             
         }

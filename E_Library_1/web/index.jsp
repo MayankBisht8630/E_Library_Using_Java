@@ -35,8 +35,8 @@
                 <div class="container">
                     <h3 class="display-3 text-center"> Welcome To Library!! </h3>
                     <p> A library is a place where books and sources of information are stored. They make it easier for people to get access to them for various purposes </p>
-                    <p> Libraries play a vital role in providing people with reliable content. They encourage and promote the process of learning and grasping knowledge. <br>The book worms can get loads of books to read from and enhance their knowledge. Moreover, the variety is so wide-ranging that one mostly gets what they are looking for. </p>
-                    <button class="btn btn-outline-light btn-lg"> <span class="fa fa-send"></span> Library Management </button>
+                    <p> Libraries play a vital role in providing people with reliable content. They encourage and promote the process of learning and grasping knowledge. <br>The book worms can get loads of books to read from and enhance their knowledge. Moreover, the variety is so wide-ranging that one mostly gets what they are looking for. </p>  
+                    <a href="login_admin.jsp" class="btn btn-outline-light btn-lg"> <span class=" fa fa-user"></span> Library Management / Admin </a>
                     <a href="login_page.jsp" class="btn btn-outline-light btn-lg"> <span class=" fa fa-sign-in fa-spin"></span> LogIn </a>
                     <a href="register_page.jsp" class="btn btn-outline-light btn-lg"> <span class=" fa fa-user-circle fa-spin"></span> Register </a>
                 </div>

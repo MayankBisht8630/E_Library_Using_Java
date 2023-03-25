@@ -55,9 +55,6 @@
                             <a class="dropdown-item" href="#"><span class ="fa fa-graduation-cap2"></span> Historical Books</a>
                         </div>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="fa fa-address-book"></span> Contact</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#" data-toggle="modal" data-target="#add-post-modal"><span class="fa fa-asterisk"></span> Post</a>
                     </li>
                 </ul>

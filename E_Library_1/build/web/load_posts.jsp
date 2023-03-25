@@ -33,7 +33,7 @@ for(Post p :posts)
             <p><%= p.getpContent() %></p>
         </div>
         <div class="card-footer text-center primary-background">
-            <a href="show_blog_page.jsp?post_id=<%= p.getPid() %>" class="btn btn-outline-light btn-sm" >Read More </a>
+            <a href="show_blog_page.jsp?post_id=<%= p.getPid() %>" class="btn btn-outline-light btn-sm" > Read More </a>
             <a href="#!" class="btn btn-outline-light btn-sm" ><i class="fa fa-thumbs-o-up"></i><span> 10</span></a>
             <a href="#!" class="btn btn-outline-light btn-sm" ><i class="fa fa-commenting-o"></i><span> 20</span></a>
         </div>

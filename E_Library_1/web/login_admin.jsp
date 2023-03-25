@@ -28,7 +28,7 @@
                         <div class="card">
                             <div class="card-header primary-background text-white text-center">
                                 <span class="fa fa-user-plus fa-3x"></span>
-                                <h5>Login Here !!</h5>
+                                <h5> Admin Login !!</h5>
                             </div>
 
                             <% Message m = (Message)session.getAttribute ("msg");
@@ -46,12 +46,12 @@
                             <div class="card-body">
                                 <form action="LoginServlet" method="post">
                                     <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address</label>
+                                        <label for="exampleInputEmail1"> Admin Email address</label>
                                         <input name ="email" required type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                        <small id="emailHelp" class="form-text text-muted"> Only Admin Can Login !!</small>
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleInputPassword1">Password</label>
+                                        <label for="exampleInputPassword1"> Admin Password</label>
                                         <input name="password" required type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                                     </div>
                                     <!--                                    <div class="form-check">
@@ -61,7 +61,6 @@
                                     <div class="container text-center">
                                         <button type="submit" class="btn btn-primary">Submit</button>
                                         <a href="index.jsp" class="btn btn-primary"> <span class=" fa fa-home"></span> Home </a>
-                                        <a href="admin.jsp" class="btn btn-primary"> <span class=" fa fa-home"></span> Admin </a>
                                     </div>
                                 </form>
                             </div>
@@ -79,3 +78,4 @@
 
 </body>
 </html>
+
